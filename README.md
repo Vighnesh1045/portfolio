@@ -1,6 +1,13 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00f5d4&height=230&section=header&text=VIGHNESH%20MHATRE&fontSize=48&fontColor=080c10&animation=fadeIn&fontAlignY=38&desc=%F0%9F%93%88%20PASSIONATE%20DATA%20ANALYST%20%7C%20BUSINESS%20ANALYST&descAlignY=60&descAlign=50" width="100%" />
-</p>
+<div align="center">
+  <!-- Neon Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:080c10,50:131b24,100:00f5d4&height=180&section=header&text=%E2%9A%A1%20VIGHNESH%20MHATRE&fontSize=46&fontColor=00f5d4&animation=twinkling&fontAlignY=38" width="100%" />
+
+  <!-- Aesthetic Dark-Mode Data GIF -->
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" style="border-radius: 10px; margin: 10px 0;" alt="Data Analytics Aesthetic" />
+
+  <!-- Live Typing Terminal Text -->
+  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=600&size=20&pause=1000&color=00F5D4&center=true&vCenter=true&width=650&height=45&lines=%3E_+'Data+Analyst'+%7C+'Business+Analyst';%3E_+'Automating+reporting+pipelines+by+85%25';%3E_+'SQL+%E2%80%A2+Python+%E2%80%A2+Power+BI+%E2%80%A2+DAX';%3E_+'Uncovering+%24301K%2B+in+profit+opportunities'" />
+</div>
 
 # Hi there, I'm Vighnesh Mhatre 👋
 
