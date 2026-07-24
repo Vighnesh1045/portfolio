@@ -1,13 +1,12 @@
 <div align="center">
-  <!-- Animated Terminal Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=131b24&height=160&section=header&text=vighnesh@data-shell:~$&fontSize=38&fontColor=00f5d4&animation=scaleIn&fontAlignY=42" width="100%" />
+  <!-- Waving Neon Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:080c10,100:00f5d4&height=200&section=header&text=VIGHNESH%20MHATRE&fontSize=48&fontColor=080c10&animation=fadeIn&fontAlignY=38" width="100%" />
 
-  <!-- Dark Cyberpunk Grid GIF -->
-  <img src="https://images.squarespace-cdn.com/content/v1/5e903f9f9b5a297e6856d35d/1601662991090-3N27E0G44H0U2K3M0W8C/Data+Grid.gif" width="100%" style="border-radius: 8px; margin-top: 8px; opacity: 0.85;" alt="Data Grid" />
+  <!-- Animated Data Flow Graphic -->
+  <img src="https://i.pinimg.com/originals/18/d8/90/18d89047914041b6c7f0d046f5c88b02.gif" width="100%" style="border-radius: 12px; margin: 12px 0;" alt="Data Flow" />
 
-  <!-- Dynamic Typing Subtitle -->
-  <br/><br/>
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=500&size=19&pause=1200&color=00F5D4&center=true&vCenter=true&width=600&height=40&lines=SELECT+*+FROM+insights+WHERE+impact+%3D+'%24301K';M.Sc.+Data+Science+%7C+CGPA+8.57;Building+AI+%26+Power+BI+dashboards" />
+  <!-- Typing Bar -->
+  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=18&pause=1000&color=F5A623&center=true&vCenter=true&width=600&height=40&lines=Data+Analyst+%E2%80%A2+Business+Analyst+%E2%80%A2+SQL+%E2%80%A2+Python;Transforming+raw+data+into+actionable+insights" />
 </div>
 
 # Hi there, I'm Vighnesh Mhatre 👋
