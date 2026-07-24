@@ -1,13 +1,6 @@
-<div align="center">
-  <!-- Waving Neon Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:080c10,100:00f5d4&height=200&section=header&text=VIGHNESH%20MHATRE&fontSize=48&fontColor=080c10&animation=fadeIn&fontAlignY=38" width="100%" />
-
-  <!-- Animated Data Flow Graphic -->
-  <img src="https://i.pinimg.com/originals/18/d8/90/18d89047914041b6c7f0d046f5c88b02.gif" width="100%" style="border-radius: 12px; margin: 12px 0;" alt="Data Flow" />
-
-  <!-- Typing Bar -->
-  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=18&pause=1000&color=F5A623&center=true&vCenter=true&width=600&height=40&lines=Data+Analyst+%E2%80%A2+Business+Analyst+%E2%80%A2+SQL+%E2%80%A2+Python;Transforming+raw+data+into+actionable+insights" />
-</div>
+<p align="center">
+  <img src="assets/banner.svg" width="100%" alt="Vighnesh Mhatre Data Analyst Banner" />
+</p>
 
 # Hi there, I'm Vighnesh Mhatre 👋
 
