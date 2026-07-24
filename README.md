@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Vighnesh Mhatre Data Analyst Banner" />
+  <img src="assets/gemini-svg.svg" width="100%" alt="Vighnesh Mhatre Data Analyst Banner" />
 </p>
 
 # Hi there, I'm Vighnesh Mhatre 👋
