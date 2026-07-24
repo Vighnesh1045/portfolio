@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop" width="100%" style="border-radius: 12px;" alt="Data Analytics Aesthetic Banner" />
 </p>
+
 # Hi there, I'm Vighnesh Mhatre 👋
 
 ### 📊 Data Analyst | Business Analyst
