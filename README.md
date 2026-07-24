@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop" width="100%" style="border-radius: 12px;" alt="Data Analytics Aesthetic Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00f5d4&height=230&section=header&text=VIGHNESH%20MHATRE&fontSize=48&fontColor=080c10&animation=fadeIn&fontAlignY=38&desc=%F0%9F%93%88%20PASSIONATE%20DATA%20ANALYST%20%7C%20BUSINESS%20ANALYST&descAlignY=60&descAlign=50" width="100%" />
 </p>
 
 # Hi there, I'm Vighnesh Mhatre 👋
