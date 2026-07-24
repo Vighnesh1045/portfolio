@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vighnesh Mhatre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Mono:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- Scanline overlay -->
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">[</span>VM<span class="logo-bracket">]</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">about</a></li>
+        <li><a href="#experience" class="nav-link">exp</a></li>
+        <li><a href="#projects" class="nav-link">projects</a></li>
+        <li><a href="#contact" class="nav-link cta-link">contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="home">
+    <canvas class="neural-canvas" id="neuralCanvas"></canvas>
+    <div class="hero-content">
+      <div class="hero-tag animate-in" style="--delay:0.05s">
+        <span class="dot"></span> Open to Analytics & Data Opportunities
+      </div>
+      <h1 class="hero-name animate-in" style="--delay:0.15s">
+        Vighnesh<br /><em>Mhatre</em>
+      </h1>
+      <p class="hero-role animate-in" style="--delay:0.3s">
+        <span class="role-prefix">&gt;</span> Data Analyst · Business Analyst
+      </p>
+      <p class="hero-sub animate-in" style="--delay:0.38s">
+        Transforming complex datasets into actionable business insights with SQL, Python, Power BI, and automated reporting pipelines.
+      </p>
+
+      <div class="hero-ctas animate-in" style="--delay:0.45s">
+        <a href="assets/Vighnesh_Resume.pdf" download class="btn btn-primary">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+        <a href="#projects" class="btn btn-secondary">
+          View Projects
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label">01 &mdash; about</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">Who I Am</h2>
+          <p>
+            Detail-oriented <strong>Data Analyst</strong> with hands-on experience in SQL, Python, Power BI, and Excel — building interactive dashboards and automated reporting pipelines that reduced manual effort by 85%.
+          </p>
+          <p>
+            Proven ability to collect, clean, and transform complex datasets into actionable insights for enterprise clients. Skilled in requirement gathering, stakeholder communication, and end-to-end data analysis processes to drive data-driven decision making.
+          </p>
+          <div class="about-stats">
+            <div>
+              <span class="stat-num">85%</span>
+              <span class="stat-label">Reporting Efficiency Gain</span>
+            </div>
+            <div>
+              <span class="stat-num">8.57</span>
+              <span class="stat-label">M.Sc. CGPA</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-card-wrap">
+          <div class="about-terminal" id="interactiveTerminal">
+            <div class="terminal-bar">
+              <span class="t-dot red"></span>
+              <span class="t-dot yellow"></span>
+              <span class="t-dot green"></span>
+              <span class="t-title">vighnesh@shell:~</span>
+            </div>
+            <div class="terminal-body" id="terminalBody">
+              <div class="t-line"><span class="t-prompt">$</span> <span class="t-out-inline">Type <span class="t-hint">help</span> and press Enter to explore</span></div>
+            </div>
+            <div class="terminal-input-row">
+              <span class="t-prompt">$</span>
+              <input type="text" id="terminalInput" class="terminal-input" placeholder="type a command..." autocomplete="off" spellcheck="false" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EXPERIENCE ==================== -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-label">02 &mdash; experience</div>
+      <h2 class="section-title">Where I've Worked</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="tl-marker"></div>
+          <div class="tl-content">
+            <div class="tl-header">
+              <h3>Tech Business Analyst Intern</h3>
+              <span class="tl-date">Mar 2026 – Jun 2026</span>
+            </div>
+            <p class="tl-company">Anvex AI Technologies Solutions Pvt. Ltd. · Kandivali, Mumbai</p>
+            <ul class="tl-points">
+              <li>Engineered Excel <strong>VBA macros</strong> to auto-generate campaign sentiment reports from raw call data (3,000+ call logs), reducing reporting time from 120 to 15 minutes — an <strong>85% efficiency gain</strong>.</li>
+              <li>Designed structured evaluation frameworks across Animal Detection, No-Helmet Violation & Crowd Monitoring modules for Anvex Vision AI; analyzed 3,421+ alert records and identified 18.5% fuzzy-matched records to establish reliability benchmarks.</li>
+              <li>Built an AI calling analytics pipeline (<strong>Python + Power BI</strong>) visualizing success rates, sentiment, and recovery insights to enable clients to interpret user behavior trends and project operational recovery timelines.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS ==================== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label">03 &mdash; projects</div>
+      <h2 class="section-title">Things I've Built</h2>
+      <div class="projects-grid">
+
+        <article class="project-card" data-index="01">
+          <div class="card-glow"></div>
+          <div class="card-inner">
+            <div class="card-top">
+              <span class="card-num">01</span>
+              <div class="card-links">
+                <a href="https://github.com/Vighnesh1045" target="_blank" rel="noopener" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="card-title">Supply Chain & Business Optimization Dashboard</h3>
+            <p class="card-desc">Identified critical supply-demand gap (demand 151 units/day vs. availability 76 units) explaining a $61K inventory shortfall and $8M risk exposure. Recommendations drove 5% inventory optimization and uncovered a $301K profit opportunity.</p>
+            <div class="card-tags">
+              <span>Power BI</span><span>SQL</span><span>DAX</span><span>Data Visualization</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-index="02">
+          <div class="card-glow"></div>
+          <div class="card-inner">
+            <div class="card-top">
+              <span class="card-num">02</span>
+              <div class="card-links">
+                <a href="https://github.com/Vighnesh1045" target="_blank" rel="noopener" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="card-title">Insurance Customer Analytics Dashboard</h3>
+            <p class="card-desc">Built interactive dashboard monitoring $600M+ coverage, $16.9M claims, and $5.98M premiums across 10,000 policies. Segmented $136M+ pending and $261M+ rejected claims by age group and policy type for underwriting reporting.</p>
+            <div class="card-tags">
+              <span>Power BI</span><span>SQL</span><span>DAX</span><span>Business Intelligence</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-index="03">
+          <div class="card-glow"></div>
+          <div class="card-inner">
+            <div class="card-top">
+              <span class="card-num">03</span>
+              <div class="card-links">
+                <a href="https://github.com/Vighnesh1045" target="_blank" rel="noopener" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="card-title">Loan Default Prediction Application</h3>
+            <p class="card-desc">Trained Random Forest Classifier achieving ~90% accuracy (precision 0.88, recall 0.86). Deployed as an interactive Streamlit app with embedded Power BI feature importance visuals for non-technical stakeholders.</p>
+            <div class="card-tags">
+              <span>Python</span><span>Scikit-learn</span><span>Streamlit</span><span>Power BI</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-index="04">
+          <div class="card-glow"></div>
+          <div class="card-inner">
+            <div class="card-top">
+              <span class="card-num">04</span>
+              <div class="card-links">
+                <a href="https://github.com/Vighnesh1045" target="_blank" rel="noopener" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="card-title">CricGenAI — Conversational AI Chat Agent</h3>
+            <p class="card-desc">Built NL-to-SQL AI agent (M.Sc. Research Project) enabling non-technical users to query cricket statistics in English, Hindi & Marathi. Resolved LangChain conflicts and hallucination bugs via targeted prompt engineering.</p>
+            <div class="card-tags">
+              <span>NVIDIA NIM</span><span>Llama 3.3 70B</span><span>SQLite</span><span>Streamlit</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label">04 &mdash; contact</div>
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="contact-sub">I'm open to Data Analyst and Business Analyst roles, analytics collaborations, and data-driven projects. Drop a message!</p>
+      <div class="contact-links">
+        <button class="contact-item" id="copyEmailBtn" aria-label="Copy email address">
+          <i class="fas fa-envelope"></i>
+          <span>vighneshmhatre00@gmail.com</span>
+          <span class="copy-badge" id="copyBadge">copied!</span>
+        </button>
+        <a href="https://www.linkedin.com/in/vighnesh-anant-mhatre/" target="_blank" rel="noopener" class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <span>linkedin/vighnesh-anant-mhatre</span>
+        </a>
+        <a href="https://github.com/Vighnesh1045" target="_blank" rel="noopener" class="contact-item">
+          <i class="fab fa-github"></i>
+          <span>github/Vighnesh1045</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo"><span class="logo-bracket">[</span>VM<span class="logo-bracket">]</span></span>
+        <p class="footer-copy">© 2026 Vighnesh Mhatre. Built with precision &amp; purpose.</p>
+        <div class="footer-socials">
+          <a href="https://github.com/Vighnesh1045" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/vighnesh-anant-mhatre/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:vighneshmhatre00@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
