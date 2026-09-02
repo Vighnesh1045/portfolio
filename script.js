@@ -197,6 +197,7 @@ fadeTargets.forEach(el => observer.observe(el));
       '&nbsp;&nbsp;02. <span class="t-hint">Insurance Analytics</span>       &mdash; Interactive coverage &amp; claims dashboard',
       '&nbsp;&nbsp;03. <span class="t-hint">Loan Default Classifier</span>   &mdash; Random Forest model &amp; Streamlit app',
       '&nbsp;&nbsp;04. <span class="t-hint">CricGenAI Agent</span>           &mdash; NL-to-SQL AI agent (M.Sc. Research)',
+      '&nbsp;&nbsp;05. <span class="t-hint">Python Pipeline Modules</span>   &mdash; Threading &amp; pandas reference collection',
     ],
     experience: () => [
       '<span class="t-success">Work Experience:</span>',
