@@ -93,6 +93,11 @@
               <span class="stat-label">M.Sc. CGPA</span>
             </div>
           </div>
+          <div class="card-tags" style="margin-top: 1.5rem;">
+            <span>Data Analyst Bootcamp — KrishaI Technologies</span>
+            <span>AIML Internship — YBI Foundation</span>
+            <span>Python — freeCodeCamp</span>
+          </div>
         </div>
         <div class="about-card-wrap">
           <div class="about-terminal" id="interactiveTerminal">
@@ -132,6 +137,8 @@
             <div class="skill-item"><i class="fas fa-calculator"></i><span>DAX</span></div>
             <div class="skill-item"><i class="fas fa-cubes"></i><span>ERPNext</span></div>
             <div class="skill-item"><i class="fas fa-chart-column"></i><span>Tableau</span></div>
+            <div class="skill-item"><i class="fas fa-server"></i><span>MS SQL Server</span></div>
+            <div class="skill-item"><i class="fas fa-database"></i><span>MySQL</span></div>
           </div>
         </div>
 
@@ -140,6 +147,8 @@
           <h3 class="skill-cat-title"><i class="fab fa-python"></i> Programming</h3>
           <div class="skill-list">
             <div class="skill-item"><i class="fab fa-python"></i><span>Python</span></div>
+            <div class="skill-item"><i class="fas fa-table"></i><span>Pandas</span></div>
+            <div class="skill-item"><i class="fas fa-square-root-variable"></i><span>NumPy</span></div>
             <div class="skill-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
             <div class="skill-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
             <div class="skill-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
@@ -178,6 +187,18 @@
           </div>
         </div>
 
+        <div class="skill-category">
+          <div class="card-glow"></div>
+          <h3 class="skill-cat-title"><i class="fas fa-cloud"></i> Cloud & Predictive Analytics</h3>
+          <div class="skill-list">
+            <div class="skill-item"><i class="fab fa-aws"></i><span>AWS</span></div>
+            <div class="skill-item"><i class="fab fa-google"></i><span>GCP BigQuery</span></div>
+            <div class="skill-item"><i class="fab fa-microsoft"></i><span>Azure</span></div>
+            <div class="skill-item"><i class="fas fa-snowflake"></i><span>Snowflake</span></div>
+            <div class="skill-item"><i class="fas fa-chart-line"></i><span>Predictive Modeling</span></div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -199,8 +220,9 @@
             <p class="tl-company">Electrolab · Mahape, Navi Mumbai</p>
             <ul class="tl-points">
               <li>Architected an idempotent, checkpoint-based <strong>Python pipeline</strong> reconciling 34,839 ERPNext Item records against a 13,679-row Excel source, resolving 787 supplier entities at <strong>100% match accuracy</strong> with 0 failures across a 200-item production pilot.</li>
-              <li>Diagnosed byte-level Item Code mismatches caused by hidden non-breaking-space characters and enforced strict raw-match validation logic, preventing silent record corruption ahead of a ~19K-row full rollout.</li>
-              <li>Led requirements gathering and data cleaning for the full-scale migration; extracted customer credit-rate records via <strong>REST API</strong> and produced descriptive statistics/box-plot analysis to surface distribution outliers.</li>
+              <li>Designed and built a 6-part read-only export pipeline for 11,732 pharmaceutical records across 3 ERPNext record types, reconciling an item-count discrepancy and achieving <strong>zero blank cells</strong> with identical output across repeat runs.</li>
+              <li>Traced a Realization % discrepancy across Sales Orders via controlled multi-order testing, isolating payment terms, freight, and commission as the true drivers and ruling out GST as a factor.</li>
+              <li>Ran and validated a daily <strong>ERPNext-to-database sync pipeline</strong> (15/15 steps, zero manual intervention); correctly diagnosed a rerun failure as external login-throttling rather than a code defect.</li>
             </ul>
           </div>
         </div>
@@ -209,14 +231,29 @@
           <div class="tl-marker"></div>
           <div class="tl-content">
             <div class="tl-header">
-              <h3>Tech Business Analyst Intern</h3>
+              <h3>Business Analyst Intern</h3>
               <span class="tl-date">Mar 2026 – Jun 2026</span>
             </div>
             <p class="tl-company">Anvex AI Technologies Solutions Pvt. Ltd. · Kandivali, Mumbai</p>
             <ul class="tl-points">
-              <li>Engineered Excel <strong>VBA macros</strong> to auto-generate campaign sentiment reports from raw call data (3,000+ call logs), reducing reporting time from 120 to 15 minutes — an <strong>85% efficiency gain</strong>.</li>
-              <li>Designed structured evaluation frameworks across Animal Detection, No-Helmet Violation & Crowd Monitoring modules for Anvex Vision AI; analyzed 3,421+ alert records and identified 18.5% fuzzy-matched records to establish reliability benchmarks.</li>
-              <li>Built an AI calling analytics pipeline (<strong>Python + Power BI</strong>) visualizing success rates, sentiment, and recovery insights to enable clients to interpret user behavior trends and project operational recovery timelines.</li>
+              <li>Audited 8,000+ ANPR/Vision AI records; built a <strong>Python/Excel pipeline</strong> flagging an 18.5% discrepancy rate.</li>
+              <li>Applied AI-assisted logic to a legacy VBA workflow, cutting turnaround from 120 to 15 minutes (<strong>87.5% faster</strong>), saving ~7 hrs/cycle.</li>
+              <li>Wrote and optimized <strong>SQL queries</strong> (joins, aggregations, DDL/DML) for campaign/call-log extraction, 3,000+ records/cycle.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-marker"></div>
+          <div class="tl-content">
+            <div class="tl-header">
+              <h3>Machine Learning Intern</h3>
+              <span class="tl-date">Jul 2025 – Dec 2025</span>
+            </div>
+            <p class="tl-company">YBI Foundation · Remote</p>
+            <ul class="tl-points">
+              <li>Built classification/regression pipelines in <strong>Python (Scikit-learn)</strong>, tuning hyperparameters to reach 90–92% accuracy.</li>
+              <li>Analyzed datasets using Pandas/Seaborn across 15+ variables and optimized preprocessing (encoding, missing values, class imbalance) across 4+ datasets, cutting cleaning time by 20%.</li>
             </ul>
           </div>
         </div>
@@ -303,7 +340,7 @@
             <h3 class="card-title">CricGenAI — Conversational AI Chat Agent</h3>
             <p class="card-desc">Built NL-to-SQL AI agent (M.Sc. Research Project) enabling non-technical users to query cricket statistics in English, Hindi & Marathi. Resolved LangChain conflicts and hallucination bugs via targeted prompt engineering.</p>
             <div class="card-tags">
-              <span>NVIDIA NIM</span><span>Llama 3.3 70B</span><span>SQLite</span><span>Streamlit</span>
+              <span>LangChain</span><span>Llama 3.3 70B</span><span>SQLite</span><span>Streamlit</span>
             </div>
           </div>
         </article>
