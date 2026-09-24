@@ -187,7 +187,7 @@ fadeTargets.forEach(el => observer.observe(el));
     ],
     whoami: () => [
       '<span class="t-success">Vighnesh Mhatre</span>',
-      'Data Analyst Apprentice @ Electrolab',
+      'Data Engineer Apprentice @ Electrolab',
       'Passionate about SQL &middot; Python &middot; Power BI &middot; Data Visualization',
       'M.Sc. Data Science &mdash; B. N. Bandodkar College, Mumbai Univ (CGPA: 8.57)',
     ],
@@ -201,7 +201,7 @@ fadeTargets.forEach(el => observer.observe(el));
     ],
     experience: () => [
       '<span class="t-success">Work Experience:</span>',
-      '&nbsp;&nbsp;<span class="t-hint">Aug 2026 &ndash; Present</span>  Data Analyst Apprentice, Electrolab',
+      '&nbsp;&nbsp;<span class="t-hint">Aug 2026 &ndash; Present</span>  Data Engineer Apprentice, Electrolab',
       '&nbsp;&nbsp;&nbsp;&nbsp;&rarr; Reconciled 34,839 ERPNext records at 100% match accuracy',
       '&nbsp;&nbsp;&nbsp;&nbsp;&rarr; Built a 6-part export pipeline for 11,732 pharma records',
       '',
